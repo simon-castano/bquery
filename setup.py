@@ -48,8 +48,7 @@ optional_libs = ['numexpr>=1.4.1']
 install_requires = [
     'pip>=8.1.2',
     'setuptools>=27.3',
-    'cython>=0.29.2',
-    '-e git://github.com/simon-castano/bcolz.git#egg=bcolz'
+    'cython>=0.29.2'
 ]
 setup_requires = []
 tests_requires = ['pytest', 'nose']
